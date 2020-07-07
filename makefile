@@ -3,5 +3,5 @@ S=$(CODE_HOME)/sources
 H=-I $(CODE_HOME)/headers
 CC=g++
 
-Lab07:$(S)/rawan.cpp main.cppp
-	$(CC) $(H) $(S)/rawan.cpp main.cpp -o Lab07 
+Lab07:$(S)/rawan.cpp $(S)/main.cpp
+	$(CC) $(H) $(S)/rawan.cpp $(S)/main.cpp -o Lab07 
