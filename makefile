@@ -1,4 +1,4 @@
-CODE_HOME=/home/mariam/Lab07
+CODE_HOME=$(HOME)/Lab07
 S=$(CODE_HOME)/sources
 H=-I $(CODE_HOME)/headers
 CC=g++
